@@ -1,13 +1,11 @@
 def decodifica(stri, dic):
-    i = 0
-    for cod in dic:
-
-        while i < len(stri):
-
-            if dic[cod] == stri[i]:
-                stri.replace(stri[i], cod)
-            i += 1
-
+    for k, v in dic.items():
+        print(k , v)
+        for letra in stri:
+            print(letra)
+            if letra == v:
+                letra = k        
+            print (letra)
     return stri
 
 dic = {
