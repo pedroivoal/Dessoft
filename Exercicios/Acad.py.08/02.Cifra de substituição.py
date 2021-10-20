@@ -1,29 +1,15 @@
 def decodifica(stri, dic):
 
-    palavra = ''
-
+    dic_inv = {}
     for k, v in dic.items():
+        dic_inv[v] = k
 
-        print(k , v)
+    palavra = ''
+    for letra in stri:
+        if letra in dic_inv:
+            palavra += dic_inv[letra]
 
-        for letra in stri:
+        elif letra not in dic_inv:
+            palavra += letra
 
-            print(letra)
-
-            if letra == v:
-                letra = k    
-                palavra += letra
-            print (letra)
-
-    return stri
-
-dic = {
-    'a': 'z',
-    'b': 'e',
-    'z': '!',
-    'e': '*',
-}
-
-stri = 'eznznz'
-
-print(decodifica(stri, dic))
+    return palavra
