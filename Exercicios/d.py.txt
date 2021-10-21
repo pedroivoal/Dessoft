@@ -1,1 +1,0 @@
-print('vá se funder')
