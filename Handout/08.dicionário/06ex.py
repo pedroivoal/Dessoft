@@ -1,3 +1,4 @@
+#
 mes =  input('Digite o mês: ').lower()
 
 dic_mes = {

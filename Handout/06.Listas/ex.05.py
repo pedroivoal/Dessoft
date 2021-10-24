@@ -1,3 +1,4 @@
+#
 def soma_valores(lista):
     i = 0
     s = 0

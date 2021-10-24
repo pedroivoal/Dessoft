@@ -1,3 +1,4 @@
+#
 def monta_dicionario(listaK, listaV):
 
     dic = {}
