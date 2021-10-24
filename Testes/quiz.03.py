@@ -1,3 +1,4 @@
+#
 def apurando_votos(candidatos, votos):
     n = [0] * len(candidatos)
     cancela = 0

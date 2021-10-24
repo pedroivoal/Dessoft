@@ -1,3 +1,4 @@
+#
 def calcula_investimento(inv, mes, tipo):
     # seleciona tipo de investimento
 

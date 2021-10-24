@@ -1,3 +1,4 @@
+#
 import random
 
 def apostando_em_dados(ndado, vaposta, nrodada):

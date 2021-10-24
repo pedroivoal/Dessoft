@@ -1,3 +1,4 @@
+#
 def organiza_filas(lis_r):
     # faixas etárias
     lis_20 = []
