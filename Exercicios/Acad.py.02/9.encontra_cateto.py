@@ -1,3 +1,4 @@
+# 
 import math
 
 def encontra_cateto(c1, h):
