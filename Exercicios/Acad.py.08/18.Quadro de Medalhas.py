@@ -13,27 +13,27 @@ def pais_campeao(dic):
     return lista[0]
 
 
-dicB = {
-    'China': {
-        'ouro': 20,
-        'prata': 35,
-        'bronze': 40 
-    },
-    'Canadá': {
-        'ouro': 5,
-        'prata': 15,
-        'bronze': 20
-    },
-    'Estados Unidos': {
-        'ouro': 25,
-        'prata': 30,
-        'bronze': 40
-    },
-    'Brasil': {
-        'ouro': 10,
-        'prata': 10,
-        'bronze': 8
-    }
-}
+# dicB = {
+#     'China': {
+#         'ouro': 20,
+#         'prata': 35,
+#         'bronze': 40 
+#     },
+#     'Canadá': {
+#         'ouro': 5,
+#         'prata': 15,
+#         'bronze': 20
+#     },
+#     'Estados Unidos': {
+#         'ouro': 25,
+#         'prata': 30,
+#         'bronze': 40
+#     },
+#     'Brasil': {
+#         'ouro': 10,
+#         'prata': 10,
+#         'bronze': 8
+#     }
+# }
 
-print(pais_campeao(dicB))
+# print(pais_campeao(dicB))

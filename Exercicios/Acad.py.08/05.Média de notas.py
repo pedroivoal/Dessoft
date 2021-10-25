@@ -12,8 +12,8 @@ def calcula_media(lista_media_individual):
 
     return media
 
-lista = [ {"aluno1": 5, "aluno2": 8}, {"aluno3": 5} ]
+# lista = [ {"aluno1": 5, "aluno2": 8}, {"aluno3": 5} ]
 
-m = calcula_media(lista)
+# m = calcula_media(lista)
 
-print(m)
+# print(m)

@@ -9,12 +9,12 @@ def promocao_viagens(dic):
 
     return dic_r
 
-destinos = {
-    "Miami":[1,1000],
-    "Ilhas Sandwich do Sul":[4,5000],
-    "Barcelona":[2, 2000],
-    "Antártica":[5,200],
-    "Buenos Aires":[3,500]
-    }
+# destinos = {
+#     "Miami":[1,1000],
+#     "Ilhas Sandwich do Sul":[4,5000],
+#     "Barcelona":[2, 2000],
+#     "Antártica":[5,200],
+#     "Buenos Aires":[3,500]
+#     }
 
-print(promocao_viagens(destinos))
+# print(promocao_viagens(destinos))

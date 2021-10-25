@@ -8,6 +8,6 @@ def primeiras_ocorrencias(palavra):
 
     return dic
 
-dic_t = primeiras_ocorrencias('abracadabra')
+# dic_t = primeiras_ocorrencias('abracadabra')
 
-print(dic_t)
+# print(dic_t)

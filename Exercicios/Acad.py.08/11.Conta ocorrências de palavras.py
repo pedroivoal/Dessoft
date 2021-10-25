@@ -15,7 +15,7 @@ def conta_ocorrencias(lista_de_palavras):
     return dic_numero_de_palavras
 
 
-lista = ['abobora', 'chuchu', 'abobora', 'abobora', 'chuchu']
+# lista = ['abobora', 'chuchu', 'abobora', 'abobora', 'chuchu']
 
-print(conta_ocorrencias(lista))
+# print(conta_ocorrencias(lista))
 #{'chuchu': 2, 'abobora': 3}

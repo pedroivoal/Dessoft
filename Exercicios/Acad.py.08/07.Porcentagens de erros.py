@@ -10,10 +10,10 @@ def calcula_porcentagens(dic):
 
     return dic
 
-dice = {
-    'Erro de indentação': 493,
-    'Erro de parênteses': 1102,
-    'Variável inexistente': 405,
-}
+# dice = {
+#     'Erro de indentação': 493,
+#     'Erro de parênteses': 1102,
+#     'Variável inexistente': 405,
+# }
 
-print(calcula_porcentagens(dice))
+# print(calcula_porcentagens(dice))
