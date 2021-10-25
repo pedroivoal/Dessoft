@@ -1,3 +1,4 @@
+# 
 def verifica_idade(id):
     if id >= 21:
         pri = 'Liberado EUA e BRASIL'

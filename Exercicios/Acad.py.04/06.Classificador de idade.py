@@ -1,3 +1,4 @@
+# 
 def classifica_idade(id):
     if id < 12:
         p  = 'crianca'

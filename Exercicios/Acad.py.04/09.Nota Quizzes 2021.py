@@ -1,3 +1,4 @@
+# 
 def nota_quizzes(q1, q2, q3, q4, q5):
     q = [q1, q2, q3, q4, q5]
     menor = q[0]

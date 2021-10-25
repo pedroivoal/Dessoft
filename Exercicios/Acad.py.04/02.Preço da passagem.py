@@ -1,3 +1,4 @@
+# 
 d = float(input('Digite a distância da viagem: '))
 ex = d - 200
 if ex > 0:

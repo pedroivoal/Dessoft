@@ -1,3 +1,4 @@
+# 
 from math import radians, sin
 
 def distance(speed,c_degrees):

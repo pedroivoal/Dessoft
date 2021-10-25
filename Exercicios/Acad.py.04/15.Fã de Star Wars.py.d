@@ -1,3 +1,4 @@
+#
 q1 = input("Já assistiu todos os filmes?")
 q2 = input("Tem camiseta temática?")
 q3 = input("Já se fantasiou de algum personagem?")

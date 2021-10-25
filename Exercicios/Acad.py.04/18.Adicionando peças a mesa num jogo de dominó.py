@@ -1,3 +1,4 @@
+# 
 def adiciona_na_mesa(piece, table):
 
     last_peace = len(table)-1

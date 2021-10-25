@@ -1,3 +1,4 @@
+# 
 def pedra_papel_tesoura(j1, j2):
 
     if j1 not in ["pedra","papel","tesoura"] or j2 not in ["pedra","papel","tesoura"]:

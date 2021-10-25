@@ -1,3 +1,4 @@
+# 
 v = float(input())
 
 if v > 80:
