@@ -1,3 +1,4 @@
+# 
 def verifica_preco (titulo,dic_nome_cor,dic_cor_prec):
 
     cor = dic_nome_cor[titulo]

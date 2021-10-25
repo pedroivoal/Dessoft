@@ -1,3 +1,4 @@
+# 
 def calcula_porcentagens(dic):
 
     soma = 0

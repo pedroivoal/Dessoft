@@ -1,3 +1,4 @@
+# 
 def decodifica(stri, dic):
 
     dic_inv = {}

@@ -1,3 +1,4 @@
+# 
 def calcula_media(lista_media_individual):
     c = 0
     soma = 0

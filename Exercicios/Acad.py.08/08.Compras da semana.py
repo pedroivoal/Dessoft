@@ -1,3 +1,4 @@
+# 
 def compras_da_semana(dic_de_pratos, lista_de_pratos):
 
     dic_de_compras = {}
