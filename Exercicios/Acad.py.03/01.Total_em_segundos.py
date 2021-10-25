@@ -1,3 +1,4 @@
+# 
 dia = int(input('Digite o número de dias: '))
 hora = int(input('Digite o número de horas: '))
 minuto = int(input('Digite o número de minutos: '))
