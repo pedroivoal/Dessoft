@@ -14,8 +14,8 @@ pygame.display.set_caption('Hello World!')
 game = True
 
 # ----- Inicia assets
-image = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\1.imagem.png').convert()
-image = pygame.transform.scale(image, (500, 330))
+image = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\1.Pedro-Ivo.jpg').convert()
+image = pygame.transform.scale(image, (300, 330))
 # ===== Loop principal =====
 while game:
     # ----- Trata eventos
@@ -26,7 +26,7 @@ while game:
 
     # ----- Gera saídas
     window.fill((0, 0, 0))  # Preenche com a cor branca
-    window.blit(image, (10, 10))
+    window.blit(image, (100, 35))
 
     # ----- Atualiza estado do jogo
     pygame.display.update()  # Mostra o novo frame para o jogador
