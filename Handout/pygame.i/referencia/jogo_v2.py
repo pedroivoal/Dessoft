@@ -20,10 +20,13 @@ while game:
             game = False
 
     # ----- Gera saídas
-    window.fill((255, 255, 255))  # Preenche com a cor branca
-    cor = (255, 0, 0)
+    window.fill((62, 154, 1))  # Preenche com a cor branca
+    cor_l = (24, 76, 179)
     vertices = [(250, 0), (500, 200), (250, 400), (0, 200)]
-    pygame.draw.polygon(window, cor, vertices)
+    pygame.draw.polygon(window, cor_l, vertices)
+    cor_c = (255, 255, 255)
+    centro = (250, 200)
+    pygame.draw.circle(window, cor_c, centro, 70)
 
     # ----- Atualiza estado do jogo
     pygame.display.update()  # Mostra o novo frame para o jogador
