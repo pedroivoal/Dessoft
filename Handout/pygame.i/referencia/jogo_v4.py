@@ -14,8 +14,8 @@ pygame.display.set_caption('Hello World!')
 game = True
 
 # ----- Inicia assets
-image = pygame.image.load('assets/img/logo-madfox.png').convert()
-
+image = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\1.imagem.png').convert()
+image = pygame.transform.scale(image, (500, 330))
 # ===== Loop principal =====
 while game:
     # ----- Trata eventos
