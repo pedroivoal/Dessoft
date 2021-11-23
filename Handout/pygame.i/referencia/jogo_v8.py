@@ -15,8 +15,8 @@ pygame.display.set_caption('Navinha')
 METEOR_WIDTH = 50
 METEOR_HEIGHT = 38
 font = pygame.font.SysFont(None, 48)
-background = pygame.image.load('assets/img/starfield.png').convert()
-meteor_img = pygame.image.load('assets/img/meteorBrown_med1.png').convert_alpha()
+background = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\starfield.png').convert()
+meteor_img = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\meteorBrown_med1.png').convert_alpha()
 meteor_img = pygame.transform.scale(meteor_img, (METEOR_WIDTH, METEOR_HEIGHT))
 
 # ----- Inicia estruturas de dados
@@ -45,6 +45,18 @@ class Meteor(pygame.sprite.Sprite):
             self.speedx = random.randint(-3, 3)
             self.speedy = random.randint(2, 9)
 
+class Ship(pygame.sprite.Sprite):
+    def __init__(self, img):
+
+        pygame.sprite.Sprite.__init__(self)
+
+        self.image = img
+        self.rect = self.image.get_rect()
+        self.rect.x = random.randint(0, WIDTH-METEOR_WIDTH)
+        self.rect.y = random.randint(-100, -METEOR_HEIGHT)
+        self.speedx = random.randint(-3, 3)
+        self.speedy = random.randint(2, 9)
+
 game = True
 # Variável para o ajuste de velocidade
 clock = pygame.time.Clock()
@@ -53,7 +65,7 @@ FPS = 30
 # Criando um grupo de meteoros
 all_meteors = pygame.sprite.Group()
 # Criando os meteoros
-for i in range(8):
+for i in range(15):
     meteor = Meteor(meteor_img)
     all_meteors.add(meteor)
 
