@@ -11,7 +11,7 @@ pygame.mixer.init()
 WIDTH = 480
 HEIGHT = 600
 window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption('Navinha')
+pygame.display.set_caption('Navinha') 
 
 # ----- Inicia assets
 METEOR_WIDTH = 50
@@ -19,27 +19,27 @@ METEOR_HEIGHT = 38
 SHIP_WIDTH = 50
 SHIP_HEIGHT = 38
 assets = {}
-assets['background'] = pygame.image.load('assets/img/starfield.png').convert()
-assets['meteor_img'] = pygame.image.load('assets/img/meteorBrown_med1.png').convert_alpha()
+assets['background'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\starfield.png').convert()
+assets['meteor_img'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\meteorBrown_med1.png').convert_alpha()
 assets['meteor_img'] = pygame.transform.scale(assets['meteor_img'], (METEOR_WIDTH, METEOR_HEIGHT))
-assets['ship_img'] = pygame.image.load('assets/img/playerShip1_orange.png').convert_alpha()
+assets['ship_img'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\playerShip1_orange.png').convert_alpha()
 assets['ship_img'] = pygame.transform.scale(assets['ship_img'], (SHIP_WIDTH, SHIP_HEIGHT))
-assets['bullet_img'] = pygame.image.load('assets/img/laserRed16.png').convert_alpha()
+assets['bullet_img'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\laserRed16.png').convert_alpha()
 explosion_anim = []
 for i in range(9):
     # Os arquivos de animação são numerados de 00 a 08
-    filename = 'assets/img/regularExplosion0{}.png'.format(i)
+    filename = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\regularExplosion0{}.png'.format(i)
     img = pygame.image.load(filename).convert()
     img = pygame.transform.scale(img, (32, 32))
     explosion_anim.append(img)
 assets["explosion_anim"] = explosion_anim
 
 # Carrega os sons do jogo
-pygame.mixer.music.load('assets/snd/tgfcoder-FrozenJam-SeamlessLoop.ogg')
+pygame.mixer.music.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\tgfcoder-FrozenJam-SeamlessLoop.ogg')
 pygame.mixer.music.set_volume(0.4)
-assets['boom_sound'] = pygame.mixer.Sound('assets/snd/expl3.wav')
-assets['destroy_sound'] = pygame.mixer.Sound('assets/snd/expl6.wav')
-assets['pew_sound'] = pygame.mixer.Sound('assets/snd/pew.wav')
+assets['boom_sound'] = pygame.mixer.Sound(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\expl3.wav')
+assets['destroy_sound'] = pygame.mixer.Sound(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\expl6.wav')
+assets['pew_sound'] = pygame.mixer.Sound(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\pew.wav')
 
 # ----- Inicia estruturas de dados
 # Definindo os novos tipos

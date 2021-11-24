@@ -19,19 +19,19 @@ METEOR_HEIGHT = 38
 SHIP_WIDTH = 50
 SHIP_HEIGHT = 38
 assets = {}
-assets['background'] = pygame.image.load('assets/img/starfield.png').convert()
-assets['meteor_img'] = pygame.image.load('assets/img/meteorBrown_med1.png').convert_alpha()
+assets['background'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\starfield.png').convert()
+assets['meteor_img'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\meteorBrown_med1.png').convert_alpha()
 assets['meteor_img'] = pygame.transform.scale(assets['meteor_img'], (METEOR_WIDTH, METEOR_HEIGHT))
-assets['ship_img'] = pygame.image.load('assets/img/playerShip1_orange.png').convert_alpha()
+assets['ship_img'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\playerShip1_orange.png').convert_alpha()
 assets['ship_img'] = pygame.transform.scale(assets['ship_img'], (SHIP_WIDTH, SHIP_HEIGHT))
-assets['bullet_img'] = pygame.image.load('assets/img/laserRed16.png').convert_alpha()
+assets['bullet_img'] = pygame.image.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\img\laserRed16.png').convert_alpha()
 
 # Carrega os sons do jogo
-pygame.mixer.music.load('assets/snd/tgfcoder-FrozenJam-SeamlessLoop.ogg')
+pygame.mixer.music.load(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\tgfcoder-FrozenJam-SeamlessLoop.ogg')
 pygame.mixer.music.set_volume(0.4)
-boom_sound = pygame.mixer.Sound('assets/snd/expl3.wav')
-destroy_sound = pygame.mixer.Sound('assets/snd/expl6.wav')
-assets['pew_sound'] = pygame.mixer.Sound('assets/snd/pew.wav')
+boom_sound = pygame.mixer.Sound(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\expl3.wav')
+destroy_sound = pygame.mixer.Sound(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\expl6.wav')
+assets['pew_sound'] = pygame.mixer.Sound(r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\pygame.i\referencia\assets\snd\pew.wav')
 
 # ----- Inicia estruturas de dados
 # Definindo os novos tipos
