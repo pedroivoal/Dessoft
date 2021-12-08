@@ -21,6 +21,6 @@ def eh_identidade(L_m):
     else:
         return False
 
-# L = [[1, 0, 0], [0, 1, 0]]
+# L = [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
 
 # print(eh_identidade(L))
