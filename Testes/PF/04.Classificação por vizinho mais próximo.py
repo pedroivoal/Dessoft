@@ -23,12 +23,12 @@ def classifica(D_fish, dim):
 
     return r
 
-D = {
-    'salmao': [[8, 6], [12, 5], [10, 4]],
-    'robalo': [[9, 3], [8, 2], [7, 3]],
-    'sardinha': [[1, 2], [2, 3], [2, 2]]
-}
+# D = {
+#     'salmao': [[8, 6], [12, 5], [10, 4]],
+#     'robalo': [[9, 3], [8, 2], [7, 3]],
+#     'sardinha': [[1, 2], [2, 3], [2, 2]]
+# }
 
-L = [10, 2]
+# L = [10, 2]
 
-print(classifica(D, L))
+# print(classifica(D, L))
