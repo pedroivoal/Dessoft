@@ -1,8 +1,11 @@
 #
+from itertools import count
+
+
 def apurando_votos(candidatos, votos):
     n = [0] * len(candidatos)
     cancela = 0
-
+    
     i1 = 0
     while i1 < len(votos):
 
