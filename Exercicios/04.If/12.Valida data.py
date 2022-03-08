@@ -2,210 +2,41 @@
 def valida_data(dia, mes, ano):
 
     # ano bissexto
-    if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-
-        # janeiro
-        if mes == 1:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
+    if ano % 4 == 0 and ano % 100 != 0 and mes == 2 or ano % 400 == 0 and mes == 2:
 
         # fevereiro
-        elif mes == 2:
-
-            if dia > 0 and dia < 30:
-                res = True
-            else:
-                res = False
-
-        # março
-        elif mes == 3:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # abriu
-        elif mes == 4:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # maio
-        elif mes == 5:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # junho
-        elif mes == 6:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # julho
-        elif mes == 7:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # agosto
-        elif mes == 8:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # setembro
-        elif mes == 9:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # outubro
-        elif mes == 10:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # novembro
-        elif mes == 11:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # dezembro
-        elif mes == 12:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # mês inválido
+        if dia > 0 and dia < 30:
+            return True
         else:
-            res = False
-
+            return False
 
     # ano não bissexto
     else:
 
-        # janeiro
-        if mes == 1:
+        # janeiro, março, maio, julho, agosto, outubro, dezembro
+        if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
 
             if dia > 0 and dia < 32:
-                res = True
+                return True
             else:
-                res = False
+                return False
 
         # fevereiro
         elif mes == 2:
 
             if dia > 0 and dia < 29:
-                res = True
+                return True
             else:
-                res = False
+                return False
 
-        # março
-        elif mes == 3:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # abriu
-        elif mes == 4:
+        # abriu, junho, setembro, novembro
+        elif mes == 4 or mes == 6 or mes == 9 or mes == 11:
 
             if dia > 0 and dia < 31:
-                res = True
+                return True
             else:
-                res = False
-
-        # maio
-        elif mes == 5:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # junho
-        elif mes == 6:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # julho
-        elif mes == 7:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # agosto
-        elif mes == 8:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # setembro
-        elif mes == 9:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # outubro
-        elif mes == 10:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
-
-        # novembro
-        elif mes == 11:
-
-            if dia > 0 and dia < 31:
-                res = True
-            else:
-                res = False
-
-        # dezembro
-        elif mes == 12:
-
-            if dia > 0 and dia < 32:
-                res = True
-            else:
-                res = False
+                return False
 
         # mês inválido
         else:
-            res = False
-
-    return res
+            return False
