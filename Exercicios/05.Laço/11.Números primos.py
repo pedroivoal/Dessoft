@@ -1,6 +1,6 @@
 
 def eh_primo(num):
-    z = int(num**(1/2) +1)#acha o maior valor(sem conta o próprio número) que dividiria o número caso ele não fosse primo.
+    z = int(num**(1/2) +1)
     if num == 1:
         return False
     elif 0 == num % 2 and num != 2:
