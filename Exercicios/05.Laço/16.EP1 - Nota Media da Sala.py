@@ -1,10 +1,6 @@
 def nota_final(q, ai, af, ep1, ep2, pf):
 
-
-    if q not in range(0, 11) or ai not in range(0, 11) or af not in range(0, 11) or ep1 not in range(0, 11) or ep2 not in range(0, 11) or pf not in range(0, 11):
-        nf = 0
-
-    else:
+    if 0<=q<=10 and 0<=ai<=10 and 0<=af<=10 and 0<=ep1<=10 and 0<=ep2<=10 and 0<=pf<=10:
 
         ni = 0.4*ai + 0.5*af + 0.1*q
 
@@ -15,23 +11,22 @@ def nota_final(q, ai, af, ep1, ep2, pf):
         else:
             nf = (ni + ng)/2
 
+        return nf
+
+    nf = 0
     return nf
 
 def nota_quizzes(q1, q2, q3, q4, q5):
+
     q = [q1, q2, q3, q4, q5]
-    menor = q[0]
+    menor = min(q)
 
-    for i in range(1, 5):
-        if q[i] < menor:
-            menor = q[i]
-
-    media = (q1 + q2 + q3 + q4 + q5 - menor) / 4
-
-    if q1 < 0 or q2 < 0 or q3 < 0 or q4 < 0 or q5 < 0 or q1 > 10 or q2 > 10 or q3 > 10 or q4 > 10 or q5 > 10:
+    if 0<=q1<=10 and 0<=q2<=10 and 0<=q3<=10 and 0<=q4<=10 and 0<=q5<=10:
+        media = (q1 + q2 + q3 + q4 + q5 - menor) / 4
+    else:
         media = 0
 
     return media
-
 
 n_alunos = 0
 Sum_notas = 0
@@ -67,10 +62,10 @@ while resp != 'não':
         aprovados += 1
 
 if n_alunos == 0:
-    print('Média da sala: 0.00')
+    print('Média da sala: 0.00%')
     print('Aprovados: 0.00%')
     print('Reprovados: 0.00%')
 else:
-    print('Média da sala: {:.2f}'.format    (Sum_notas/n_alunos))
-    print('Aprovados: {:.2f}%'.format    (aprovados/n_alunos))
-    print('Reprovados: {:.2f}%'.format    (reprovados/n_alunos))
+    print(f'Média da sala: {Sum_notas/n_alunos:.2f}')
+    print(f'Aprovados: {aprovados/n_alunos*100:.2f}%')
+    print(f'Reprovados: {reprovados/n_alunos*100:.2f}%')
