@@ -6,9 +6,9 @@ def pacotes_correio(remessa):
     numero = []
 
     for i in remessa:
-        ordem.append(i[1])
         tamanhos.append(i[2])
         numero.append(i[0])
+        ordem.append(i[1])
 
     t_min = min(tamanhos)
     t_max = max(tamanhos)
