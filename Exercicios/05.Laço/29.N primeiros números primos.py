@@ -26,3 +26,5 @@ def lista_primos(n):
         i += 1
 
     return l_primos
+
+print(lista_primos(50))
