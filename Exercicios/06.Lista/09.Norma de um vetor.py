@@ -1,5 +1,9 @@
-def calcula_norma(x, y):
-    import math
+def calcula_norma(l):
 
-    norma = math.sqrt(x**2 + y**2)
+    i = l[0]
+    j = l[1]
+
+    norma = (i**2 + j**2)^(1/2)
+
     return norma
+    
