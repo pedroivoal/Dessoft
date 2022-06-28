@@ -7,4 +7,3 @@ def eh_crescente(l):
         i += 1
 
     return True
-    
