@@ -10,9 +10,11 @@ def verifica_lista(lista):
         else:
             impar += 1
 
-    if impar > 1 and par == 0:
+    if impar > 0 and par == 0:
         return 'ímpar'
-    elif par > 1:
+    elif par > 0 and impar == 0:
         return 'par'
     else:
         return 'misturado'
+
+print(verifica_lista([1, 5, 2, 7, 3, 7, 4]))
