@@ -4,7 +4,5 @@ def libras_para_kg(lib):
     
     return kg
 
-# # PARA TESTAR FUNÇÃO
-
-# forn = libras_para_kg(int(input()))
-# print(forn)
+# PARA TESTAR FUNÇÃO
+# print(libras_para_kg(220.46226218487757))

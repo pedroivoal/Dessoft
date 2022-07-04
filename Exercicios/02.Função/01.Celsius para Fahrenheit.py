@@ -4,7 +4,5 @@ def celsius_para_fahrenheit(c):
     
     return c
 
-# # PARA TESTAR FUNÇÃO
-
-# r = celsius_para_fahrenheit(int(input()))
-# print(r)
+# PARA TESTAR FUNÇÃO
+# print(celsius_para_fahrenheit(100))

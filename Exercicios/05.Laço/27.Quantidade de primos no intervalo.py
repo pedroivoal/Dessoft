@@ -24,3 +24,5 @@ def primos_entre(a, b):
         cont += 1
 
     return i
+
+# print(primos_entre(0, 100))

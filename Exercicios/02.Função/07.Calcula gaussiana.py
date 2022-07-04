@@ -1,4 +1,4 @@
-from math import *
+from math import sqrt, pi, e
 
 def calcula_gaussiana(x, mi, sig):
 

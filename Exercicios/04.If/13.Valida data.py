@@ -1,4 +1,3 @@
-# 
 def valida_data(dia, mes, ano):
 
     # ano bissexto

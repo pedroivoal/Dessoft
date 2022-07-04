@@ -1,4 +1,3 @@
-# 
 v = float(input('Valor da casa: '))
 s = float(input('Salário: '))
 t = float(input('Tempo em anos: '))

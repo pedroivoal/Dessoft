@@ -4,9 +4,5 @@ def calcula_area_do_triangulo(b, h):
     
     return a
 
-# # PARA TESTAR FUNÇÃO
-
-# b = int(input('Base:'))
-# h = int(input('Altura:'))
-# res = calcula_area_do_triangulo(b, h)
-# print(res)
+# PARA TESTAR FUNÇÃO
+# print(calcula_area_do_triangulo(2, 10))
