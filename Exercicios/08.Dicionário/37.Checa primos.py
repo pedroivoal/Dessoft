@@ -21,6 +21,5 @@ def verifica_primos(L_numb):
 
     return D_primes
 
-L_n = [-1,0,1,2,3,4,5,6,7,8,9]
-print(verifica_primos(L_n))
-
+# L_n = [-1,0,1,2,3,4,5,6,7,8,9]
+# print(verifica_primos(L_n))
