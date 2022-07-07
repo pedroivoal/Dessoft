@@ -1,4 +1,4 @@
-e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\10. Arquivos\cancao_do_exilio.txt'
+e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Handout\10.Arquivo\cancao_do_exilio.txt'
 
 def p1():
     # Lendo tudo de uma vez
