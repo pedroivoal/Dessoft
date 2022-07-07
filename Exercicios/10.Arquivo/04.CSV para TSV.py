@@ -1,4 +1,4 @@
-e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\dados.csv'
+e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\04.dados.csv'
 # dados.csv
 
 tsv = ''
@@ -13,6 +13,6 @@ with open(e, 'r') as arquivo:
         else:
             tsv += c
 
-e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\dados.tsv'
+e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\04.dados.tsv'
 with open(e, 'w') as arquivo:
     arquivo.write(tsv)

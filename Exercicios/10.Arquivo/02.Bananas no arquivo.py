@@ -1,4 +1,4 @@
-e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\macacos-me-mordam.txt'
+e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\02.macacos-me-mordam.txt'
 # macacos-me-mordam.txt
 
 with open(e, 'r') as arquivo:
