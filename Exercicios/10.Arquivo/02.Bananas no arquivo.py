@@ -1,4 +1,4 @@
-e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\02.macacos-me-mordam.txt'
+e = r'C:\Users\pedro\OneDrive\Documentos\GitHub\Dessoft\Exercicios\10.Arquivo\arquivos\02.macacos-me-mordam.txt'
 # macacos-me-mordam.txt
 
 with open(e, 'r') as arquivo:
@@ -19,4 +19,3 @@ for palavra in palavras:
         cont += 1
 
 print(cont)
-print(conteudoF)
