@@ -1,4 +1,4 @@
-# Dessoft
+# Dessoft - Pedro Ivo
 ## Códigos de aulas, exercícios e provas
 ### Onde guardo:
 - Todos os códicos que fiz resolvendo os exercícios da academia python.
